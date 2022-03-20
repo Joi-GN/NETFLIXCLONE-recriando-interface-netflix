@@ -1,0 +1,176 @@
+/* Variables*/
+:root {
+    --main-bg-color: #000000;
+    --main-text-color: #fff;
+    --dark-grey: #303030;
+    --secondary-dark-grey: #222222;
+    --net-red: #e50914;
+    --secondary-red: #dd0611;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
+}
+
+body a{
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+/* Valores padrões para dispositivos móveis */
+h1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+h2, h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* Bootstrap */
+.btn {
+    border-radius: 0;
+    padding: 8px 16px;
+}
+
+.btn :hover{
+    color: var(--main-text-color);
+}
+
+.btn-danger {
+    background: var(--secondary-red);
+    border-radius: 5%;
+}
+
+/* Custom Styles */
+.navbar {
+    background: transparent;
+    padding: 16px;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand {
+    color:var(--net-red);
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    letter-spacing: -1px;
+    padding-left: 40px;
+}
+
+.navbar button{
+    font-weight: 300;
+    padding: 4px 16px;
+    border-radius: 5%;
+    margin-right: 40px;
+}
+
+main {
+    background: rgb(0,0,0);
+    background: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.8457982781228055) 0%, 
+        rgba(10,7,2,0.5031016489093223) 50%, 
+        rgba(0,0,0,0.8457982781228055) 100%
+        ),url('../img/main.jpg');
+    background-size: cover;
+    height: 510px;
+}
+
+.main-content {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 104px 0;
+}
+
+.main-content_input-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content_input-container input {
+    flex:1;
+    max-width: 500px;
+    padding: 12px;
+    width: 100%
+}
+
+.benefits-section {
+    padding: 32px 32px 40px 32px;
+    text-align: left;
+    border-bottom: 8px solid var(--secondary-dark-grey);
+}
+
+.benefits-section:first-of-type {
+    border-top: 8px solid var(--secondary-dark-grey);
+}
+
+.benefits-section div {
+    padding: 16px;
+}
+
+.benefits-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.container .faq-content{
+    padding: 50px;
+}
+
+.accordion {
+     max-width: 900px;
+     padding: 30px 30px;
+     margin: 0 auto;
+}
+
+.accordion-item, .accordion-button {
+    border: none;
+    background-color: var(--dark-grey);
+    margin-bottom: 8px;
+    color: var(--main-text-color);
+    font-size: 22px;
+    margin: 0 0 8px 0;
+}
+
+.accordion-item :enabled{
+    background-color: var(--dark-grey);
+    color: var(--main-text-color);   
+}
+
+.emailinput, .faq-content h1{
+    text-align: center;
+}
+
+footer{
+    border-top: 8px solid var(--secondary-dark-grey);
+    padding-top: 40px;
+    margin: 50px;
+
+    color: gray;
+}
+
+footer h4,h5{
+    margin-left: 80px;
+}
+
+footer a{
+    color: gray;
+}

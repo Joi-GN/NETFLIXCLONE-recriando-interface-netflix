@@ -1,0 +1,62 @@
+/* BREAKPOINT: Large devices */
+@media (min-width:992px) {
+    h1{
+        font-size: 44px;
+        font-weight: 600;
+    }
+    
+    h2 {
+        font-size: 28px;
+        font-weight: 400;
+    } 
+    
+    h3 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    h5 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    main{
+        height: 710px;
+    }
+
+    .navbar-brand {
+        font-size: 40px;
+    }
+
+    .main-content {
+        padding: 180px 0;
+    }
+
+    .main-content_input-container{
+        flex-direction: row;
+    }
+
+    .main-content_input-container input{
+        height: 70px;
+
+    }
+
+    .main-content_input-container button {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .accordion-item, .accordion-button {
+        font-size: 24px;
+    }
+}
+
+/* BREAKPOINT: X-Large devices */
+@media (min-width:1200px) {
+    
+}
